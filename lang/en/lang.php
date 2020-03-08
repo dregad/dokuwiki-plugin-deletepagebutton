@@ -9,3 +9,8 @@
 
 $lang['menu_item']  = 'Delete page';
 $lang['deleted_ok'] = 'Page deleted successfully';
+
+$lang['js']['title']      = $lang['menu_item'];
+$lang['js']['confirm']    = 'Are you sure you want to delete this page ?';
+$lang['js']['btn_ok']     = 'OK';
+$lang['js']['btn_cancel'] = 'Cancel';
