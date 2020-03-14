@@ -89,7 +89,7 @@ class action_plugin_deletepagebutton extends DokuWiki_Action_Plugin {
         }
 
         // Redirect to page view
-        $event->data = 'show';
+        $event->data = 'redirect';
     }
 
 }
