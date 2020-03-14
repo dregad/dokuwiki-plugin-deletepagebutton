@@ -7,7 +7,9 @@ This provides a simpler, quicker and more intuitive way for users to
 delete wiki pages, compared to the 
 [documented page deletion method](https://www.dokuwiki.org/page#delete_a_page).
 
-Copyright(c) 2020 Damien Regad <dregad@mantisbt.org>
+![Screenshot](images/screenshot.png)
+
+Copyright (c) 2020 Damien Regad <dregad@mantisbt.org>
 
 
 ## License
