@@ -50,3 +50,7 @@ https://github.com/dregad/dokuwiki-plugin-deletepagebutton
 ## Credits
 
 Icon: https://materialdesignicons.com/icon/trash-can-outline
+
+I first thought I could adapt 
+[this old plugin](https://github.com/caillou/dokuwiki-plugin-delete)
+but I ended up restarting from scratch.
