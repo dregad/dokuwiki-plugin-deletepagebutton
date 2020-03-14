@@ -38,8 +38,9 @@ it will not work!
 ## Compatibility
 
 This plugin has been developped and tested with DokuWiki release 
-*2018-04-22b "Greebo"*.
+*2018-04-22b "Greebo"* and should work with later versions as well.
 
+Earlier releases are not supported.
 
 ## Support
 
