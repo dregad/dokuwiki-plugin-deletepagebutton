@@ -22,6 +22,12 @@ class DeletePageButton extends AbstractItem {
     /** @var string icon file */
     protected $svg = __DIR__ . '/images/trash-can-outline.svg';
 
+    /** @inheritdoc */
+    public function __construct() {
+        parent::__construct();
+        $this->params['sectok'] = getSecurityToken();
+    }
+
     /**
      * Get label from plugin language file
      *

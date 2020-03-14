@@ -80,7 +80,7 @@ class action_plugin_deletepagebutton extends DokuWiki_Action_Plugin {
             return;
         };
 
-        if( $INFO['exists']) {
+        if(checkSecurityToken() && $INFO['exists']) {
             // Save the page with empty contents to delete it
             saveWikiText($ID, null, $lang['deleted']);
 
