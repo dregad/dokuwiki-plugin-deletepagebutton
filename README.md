@@ -1,10 +1,10 @@
 # Delete Page Button Plugin for DokuWiki
 
-The plugin adds a _Delete page_ button to DokuWiki's 
+The plugin adds a _Delete page_ button to DokuWiki's
 [PageMenu](https://www.dokuwiki.org/devel:menus).
 
-This provides a simpler, quicker and more intuitive way for users to 
-delete wiki pages, compared to the 
+This provides a simpler, quicker and more intuitive way for users to
+delete wiki pages, compared to the
 [documented page deletion method](https://www.dokuwiki.org/page#delete_a_page).
 
 ![Screenshot](images/screenshot.png)
@@ -27,8 +27,9 @@ GNU General Public License for more details.
 
 ## Installation and Configuration
 
-Please refer to https://www.dokuwiki.org/plugin:deletepagebutton for information
-on how to install and configure this plugin in DokuWiki.
+Please refer to
+[the plugin's wiki page](https://www.dokuwiki.org/plugin:deletepagebutton)
+for information on how to install and configure this plugin in DokuWiki.
 
 If you install this plugin manually, make sure it is installed in
 `lib/plugins/deletepagebutton/` - if the folder is called differently,
@@ -57,6 +58,6 @@ https://github.com/dregad/dokuwiki-plugin-deletepagebutton
 
 Icon: https://materialdesignicons.com/icon/trash-can-outline
 
-I first thought I could adapt 
+I first thought I could adapt
 [this old plugin](https://github.com/caillou/dokuwiki-plugin-delete)
 but I ended up restarting from scratch.
