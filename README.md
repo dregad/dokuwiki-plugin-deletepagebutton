@@ -37,10 +37,16 @@ it will not work!
 
 ## Compatibility
 
-This plugin has been developped and tested with DokuWiki release 
-*2018-04-22b "Greebo"* and should work with later versions as well.
+This plugin has been tested with the following DokuWiki releases,
+and should work with later versions as well.
+- 2018-04-22b "Greebo"
+- 2020-07-29 "Hogfather"
 
 Earlier releases are not supported.
+
+It has only been tested with the default
+[DokuWiki Template](https://www.dokuwiki.org/template:dokuwiki).
+
 
 ## Support
 
