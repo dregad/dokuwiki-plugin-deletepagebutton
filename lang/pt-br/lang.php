@@ -1,10 +1,10 @@
 <?php
 /**
- * Delete Page Button plugin - English language file
+ * Delete Page Button plugin - Portuguese-Brazil language file
  *
  * @copyright (c) 2020 Damien Regad
  * @license GPLv2 or later (https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
- * @author  Damien Regad
+ * @author  Eduardo Mozart de Oliveira
  */
 
 $lang['menu_item']  = 'Excluir página';
