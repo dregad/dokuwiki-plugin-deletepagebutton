@@ -6,7 +6,7 @@
  * @author  Damien Regad
  */
 jQuery(function() {
-    jQuery('.deletepagebutton a').click(function(e) {
+    jQuery('.deletepagebutton').click(function(e) {
         e.preventDefault();
 
         var submit_url = this.href;
