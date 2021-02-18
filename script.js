@@ -22,6 +22,20 @@ jQuery(function() {
     }
 
     let $button = jQuery(selector);
+    if ($button.length === 0) {
+        const urlGitHubNewIssue =
+            'https://github.com/dregad/dokuwiki-plugin-deletepagebutton/issues/new'
+            + "?labels=bug"
+            + "&title=Confirmation+dialog+not+working+with+" + template + "+template"
+            + "&body=Please+provide+sample+HTML+for+the+*Delete+Page*+button";
+        console.warn(
+            "DokuWiki DeletePageButton plugin: Template '" + template + "' "
+            + "is not fully supported (the Confirmation dialog will not work). "
+            + "Please report the problem by clicking the following URL "
+            + urlGitHubNewIssue
+        );
+        return;
+    }
 
     $button.on('click', function(e) {
         e.preventDefault();
