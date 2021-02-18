@@ -6,11 +6,10 @@
  * @author  Damien Regad
  */
 jQuery(function() {
-    jQuery('.deletepagebutton a').click(function(e) {
+    jQuery('.deletepagebutton a').on('click', function(e) {
         e.preventDefault();
-
-        var submit_url = this.href;
-        var $dialog = jQuery(
+        let submit_url = this.href;
+        let $dialog = jQuery(
             '<div><span>'
             + LANG.plugins.deletepagebutton.confirm
             + '</span></div>'
