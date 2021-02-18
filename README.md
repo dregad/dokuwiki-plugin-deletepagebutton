@@ -1,5 +1,7 @@
 # Delete Page Button Plugin for DokuWiki
 
+Copyright (c) 2020 Damien Regad <dregad@mantisbt.org>
+
 The plugin adds a _Delete page_ button to DokuWiki's
 [PageMenu](https://www.dokuwiki.org/devel:menus).
 
@@ -9,7 +11,12 @@ delete wiki pages, compared to the
 
 ![Screenshot](images/screenshot.png)
 
-Copyright (c) 2020 Damien Regad <dregad@mantisbt.org>
+If JavaScript is enabled 
+and the current [Template](https://www.dokuwiki.org/template) 
+is supported by the plugin, 
+a confirmation dialog will be displayed prior to deleting the page.
+
+![Confirmation](images/confirm.png)
 
 
 ## License
@@ -45,8 +52,12 @@ and should work with later versions as well.
 
 Earlier releases are not supported.
 
-It has only been tested with the default
-[DokuWiki Template](https://www.dokuwiki.org/template:dokuwiki).
+The plugin has been tested with the default
+[DokuWiki](https://www.dokuwiki.org/template:dokuwiki) and the
+[Bootstrap3](https://www.dokuwiki.org/template:bootstrap3) 
+Templates.
+Other Templates should work as well, as long as they use the same markup for 
+Page Tools; otherwise, the page will be deleted without confirmation. 
 
 
 ## Support
