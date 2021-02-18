@@ -12,6 +12,9 @@ jQuery(function() {
     // jQuery selector for the Delete Page button
     let selector;
     switch (template) {
+        case 'bootstrap3':
+            selector = 'li.action a.deletepagebutton';
+            break;
         // Default selector (from DokuWiki default template)
         case 'dokuwiki':
         default:
