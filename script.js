@@ -6,7 +6,21 @@
  * @author  Damien Regad
  */
 jQuery(function() {
-    jQuery('.deletepagebutton a').on('click', function(e) {
+    // Get current template name from DOKU_TPL which contains its path
+    let template = DOKU_TPL.replace(/[\\/]$/, "").split(/[\\/]/).pop();
+
+    // jQuery selector for the Delete Page button
+    let selector;
+    switch (template) {
+        // Default selector (from DokuWiki default template)
+        case 'dokuwiki':
+        default:
+            selector = '.deletepagebutton a';
+    }
+
+    let $button = jQuery(selector);
+
+    $button.on('click', function(e) {
         e.preventDefault();
         let submit_url = this.href;
         let $dialog = jQuery(
