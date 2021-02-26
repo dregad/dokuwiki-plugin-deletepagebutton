@@ -1,7 +1,7 @@
 base   deletepagebutton
 author Damien Regad
 email  dregad@mantisbt.org
-date   2021-02-19
+date   2021-02-26
 name   Delete Page Button plugin
 desc   Adds a PageMenu button to Delete the current page.
 url    https://www.dokuwiki.org/plugin:deletepagebutton

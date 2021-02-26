@@ -63,11 +63,11 @@ Page Tools; otherwise, the page will be deleted without confirmation.
 ## Support
 
 Source code and support for this plugin can be found at
-https://github.com/dregad/dokuwiki-plugin-deletepagebutton
+<https://github.com/dregad/dokuwiki-plugin-deletepagebutton>
 
 ## Credits
 
-Icon: https://materialdesignicons.com/icon/trash-can-outline
+Icon: <https://materialdesignicons.com/icon/trash-can-outline>
 
 I first thought I could adapt
 [this old plugin](https://github.com/caillou/dokuwiki-plugin-delete)
