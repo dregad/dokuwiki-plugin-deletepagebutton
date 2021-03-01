@@ -6,8 +6,9 @@
  * @author  Damien Regad
  */
 jQuery(function() {
-    // Get current template name from DOKU_TPL which contains its path
-    let template = DOKU_TPL.replace(/[\\/]$/, "").split(/[\\/]/).pop();
+    // Get current template name, see action_plugin_deletepagebutton::addJsInfo()
+    // noinspection JSUnresolvedVariable
+    let template = JSINFO.deletepagebutton_template;
 
     // jQuery selector for the Delete Page button
     let selector;

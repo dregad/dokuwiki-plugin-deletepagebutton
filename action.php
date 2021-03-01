@@ -25,8 +25,19 @@ class action_plugin_deletepagebutton extends DokuWiki_Action_Plugin {
      * @param Doku_Event_Handler $controller The plugin controller
      */
     public function register(Doku_Event_Handler $controller) {
+        $controller->register_hook('DOKUWIKI_STARTED', 'AFTER', $this, 'addJsInfo' );
         $controller->register_hook('MENU_ITEMS_ASSEMBLY', 'AFTER', $this, 'addButton' );
         $controller->register_hook('ACTION_ACT_PREPROCESS', 'BEFORE', $this, 'deletePage' );
+    }
+
+    /**
+     * Hook for DOKUWIKI_STARTED event.
+     *
+     * Adds current template to $JSINFO
+     */
+    public function addJsInfo() {
+        global $JSINFO, $conf;
+        $JSINFO['deletepagebutton_template'] = $conf['template'];
     }
 
     /**
