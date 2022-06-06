@@ -1,6 +1,10 @@
 <?php
 /**
  * Delete Page Button plugin - Chinese language file
+ * 
+ * @copyright (c) 2020 Damien Regad
+ * @license GPLv2 or later (https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
+ * @author  yang
  */
 
 $lang['menu_item']  = '删除页面';
