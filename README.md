@@ -47,8 +47,12 @@ it will not work!
 
 This plugin has been tested with the following DokuWiki releases,
 and should work with later versions as well.
-- 2018-04-22b "Greebo"
+
+- 2024-02-06a “Kaos”
+- 2023-04-04a “Jack Jackrum”
+- 2022-07-31b “Igor”
 - 2020-07-29 "Hogfather"
+- 2018-04-22b "Greebo"
 
 Earlier releases are not supported.
 
